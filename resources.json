@@ -1,0 +1,231 @@
+{
+    "resources": [
+        {
+            "name": "model/Cemera.js"
+        },
+        {
+            "name": "model/Input.js"
+        },
+        {
+            "name": "model/models.js"
+        },
+        {
+            "name": "model/Model.json"
+        },
+        {
+            "name": "model/Barcode.js"
+        },
+        {
+            "name": "formatter/formatter.js"
+        },
+        {
+            "name": "Component.js"
+        },
+        {
+            "name": "img/eyeBarcodeScann.png"
+        },
+        {
+            "name": "img/Accept.png"
+        },
+        {
+            "name": "img/AcceptIcon.png"
+        },
+        {
+            "name": "img/Error.png"
+        },
+        {
+            "name": "img/download.png"
+        },
+        {
+            "name": "index.html"
+        },
+        {
+            "name": "neo-app.json"
+        },
+        {
+            "name": ".user.project.json"
+        },
+        {
+            "name": "i18n/i18n_fi.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "i18n/i18n_en.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "view/orderError.view.xml"
+        },
+        {
+            "name": "view/listTargetInfo.view.xml"
+        },
+        {
+            "name": "view/ScanArtical.view.xml"
+        },
+        {
+            "name": "view/searchBrand.view.xml"
+        },
+        {
+            "name": "view/orderData.view.xml"
+        },
+        {
+            "name": "view/enterSourceInfo.view.xml"
+        },
+        {
+            "name": "view/storageLoc.view.xml"
+        },
+        {
+            "name": "view/ListView.view.xml"
+        },
+        {
+            "name": "view/replenishmentOrder.view.xml"
+        },
+        {
+            "name": "view/amountMoveProduct.view.xml"
+        },
+        {
+            "name": "view/searchOrder.view.xml"
+        },
+        {
+            "name": "view/orderExist.view.xml"
+        },
+        {
+            "name": "view/transferOrder.view.xml"
+        },
+        {
+            "name": "view/allOrderList.view.xml"
+        },
+        {
+            "name": "view/view1.view.xml"
+        },
+        {
+            "name": "view/orderStatusDetail.view.xml"
+        },
+        {
+            "name": "view/enterStorageBin.view.xml"
+        },
+        {
+            "name": "view/targetInformation.view.xml"
+        },
+        {
+            "name": "view/enterProductNumber.view.xml"
+        },
+        {
+            "name": "view/orderDetails.view.xml"
+        },
+        {
+            "name": "view/moveProduct.view.xml"
+        },
+        {
+            "name": "extended_runnable_file.html"
+        },
+        {
+            "name": ".project.json"
+        },
+        {
+            "name": "resources.json",
+            "merged": true
+        },
+        {
+            "name": "manifest.json"
+        },
+        {
+            "name": "controller/enterProductNumber.controller.js"
+        },
+        {
+            "name": "controller/allOrderList.controller.js"
+        },
+        {
+            "name": "controller/TargetInformation.controller.js"
+        },
+        {
+            "name": "controller/listTargetInfo.controller.js"
+        },
+        {
+            "name": "controller/replenishmentOrder.controller.js"
+        },
+        {
+            "name": "controller/orderExist.controller.js"
+        },
+        {
+            "name": "controller/SearchOrder.controller.js"
+        },
+        {
+            "name": "controller/enterSourceInfo.controller.js"
+        },
+        {
+            "name": "controller/orderData.controller.js"
+        },
+        {
+            "name": "controller/amountMoveProduct.controller.js"
+        },
+        {
+            "name": "controller/orderError.controller.js"
+        },
+        {
+            "name": "controller/orderDetails.controller.js"
+        },
+        {
+            "name": "controller/view1.controller.js"
+        },
+        {
+            "name": "controller/ListView.controller.js"
+        },
+        {
+            "name": "controller/searchBrand.controller.js"
+        },
+        {
+            "name": "controller/moveProduct.controller.js"
+        },
+        {
+            "name": "controller/enterStorageBin.controller.js"
+        },
+        {
+            "name": "controller/BaseController.js"
+        },
+        {
+            "name": "controller/orderStatusDetail.controller.js"
+        },
+        {
+            "name": "controller/storageLoc.controller.js"
+        },
+        {
+            "name": "controller/TransferOrder.controller.js"
+        },
+        {
+            "name": "controller/ScanArtical.controller.js"
+        },
+        {
+            "name": "css/Mobile.css"
+        },
+        {
+            "name": "css/style.css"
+        },
+        {
+            "name": "css/Desktop.css"
+        },
+        {
+            "name": "css/Tablet.css"
+        },
+        {
+            "name": "Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "fragment/Information.fragment.xml"
+        },
+        {
+            "name": "fragment/Search.fragment.xml"
+        },
+        {
+            "name": "fragment/eventType.fragment.xml"
+        },
+        {
+            "name": "fragment/ssccScannedList.fragment.xml"
+        }
+    ]
+}

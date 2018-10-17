@@ -1,0 +1,39 @@
+<core:FragmentDefinition xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m"
+	xmlns:l="sap.ui.layout" xmlns:tnt="sap.tnt" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form">
+<Label text = "Tilaus 1" class="ordercountClass"></Label>
+<!--	first list data-->
+			<HBox class="orderTextBlock">
+				<Text text="Lähde" class="transferOrdLeftItem"></Text>
+				<Text text=":" class="orderSepClass"></Text>
+				<Text text="{orderListItem>Lähde}" class="transferOrdRightItem"></Text>
+			</HBox>
+				<HBox >
+				<Text text="Kohde" class="transferOrdLeftItem"></Text>
+				<Text text=":" class="orderSepClass"></Text>
+				<Text text="{orderListItem>Kohde}" class="transferOrdRightItem"></Text>
+			</HBox>
+			
+			<!--	Second list data-->
+				<HBox class="orderTextBlock">
+				<Text text="SSCC" class="transferOrdLeftItem"></Text>
+				<Text text=":" class="orderSepClass"></Text>
+				<Text text="{orderListItem>SSCC}" class="transferOrdRightItem"></Text>
+			</HBox>
+				<HBox >
+				<Text text="VY-tyyppi" class="transferOrdLeftItem"></Text>
+				<Text text=":" class="orderSepClass"></Text>
+				<Text text="{orderListItem>VY-tyyppi}" class="transferOrdRightItem"></Text>
+			</HBox>
+				<!--	Third list data-->
+					<HBox class="orderTextBlock">
+				<Text text="Lavan koko" class="transferOrdLeftItem"></Text>
+				<Text text=":" class="orderSepClass"></Text>
+				<Text text="{orderListItem>Lavan koko}" class="transferOrdRightItem"></Text>
+			</HBox>
+				<HBox >
+				<Text text="Tuotenimi" class="transferOrdLeftItem"></Text>
+				<Text text=":" class="orderSepClass"></Text>
+				<Text text="{orderListItem>Tuotenimi}" class="transferOrdRightItem"></Text>
+			</HBox>
+		
+</core:FragmentDefinition>

@@ -1,0 +1,32 @@
+<mvc:View controllerName="TransferOrder.controller.TransferOrder"  xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:tnt="sap.tnt">
+	<App  class="pageAppClass">
+		<pages>
+			<Page showHeader="false" class="statusPageClass">
+			<content>
+		<tnt:ToolHeader class ="headerClass">
+		<Button icon="sap-icon://nav-back" type="Transparent" press="onNavBack" class="buttonIconClass">
+			<layoutData>
+				<OverflowToolbarLayoutData priority="NeverOverflow" />
+			</layoutData>
+		</Button>
+		<ToolbarSpacer />
+		<Text text="{i18n>title}" wrapping="false" class="titleClass">
+			<layoutData>
+				<OverflowToolbarLayoutData priority="Disappear" />
+			</layoutData>
+		</Text>
+		<ToolbarSpacer />
+		<Button icon="sap-icon://menu2" type="Transparent" press="onUserNamePress">
+			<layoutData>
+				<OverflowToolbarLayoutData priority="NeverOverflow" />
+			</layoutData>
+		</Button>
+	   </tnt:ToolHeader>
+			
+			
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

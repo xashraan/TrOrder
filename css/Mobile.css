@@ -1,0 +1,775 @@
+@media (min-width: 320px) and (max-width: 480px) {
+	.cameraIconClass {
+     font-size: 3rem;
+    margin-top: 14%;
+}
+.brandlabel{
+    color: #1E1E1E;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    margin-top: 6rem;
+}
+.brandsearchclass{
+    width: 89%;
+    /* min-height: 19% !important; */
+    margin-left: 3%;
+}
+.amountLabelClass {
+     position: absolute;
+    top: 6%;
+    font-size: 1.5rem;
+    color: #1E1E1E;
+    font-family: 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 13%;
+}
+.brandNameLabelClass {
+position: absolute;
+    color: #1E1E1E;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 24%;
+    font-size: 1.2rem;
+    margin-left: 9%;
+}
+.footerHBoxClass {
+    text-align: center;
+    height: 24%;
+}
+.listSecHboxClass div:last-child {
+    width: 68%;
+}
+.moveproduclastTextClass {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Arial Bold', 'Arial Regular', 'Arial';
+     font-weight: 700;
+    position: absolute;
+   margin-left: 7%;
+    margin-top: 2%;
+}
+.statusPageClass .sapMPanelContent {
+ padding: 0 !important;
+}
+.moveproducTextClass {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Arial Bold', 'Arial Regular', 'Arial';
+       font-weight: 700;
+    position: absolute;
+    margin-left: 17%;
+    margin-top: 2%;
+}
+.moveproductVboxclass div:last-child {
+   padding-right: 69%;
+}
+.moveproducLastVBoxClass div:last-child {
+     padding-right: 74%;
+}
+.moveproducLastVBoxClass {
+    width: 50%;
+ padding-top: 10%;
+}
+.moveproductVboxclass {
+    width: 50%;
+    border-right: 1px solid;
+   padding-top: 10%;
+}
+.brandKeypad {
+    width: 359px !important;
+    height: 216px !important;
+      top: 182px !important;
+}
+.amountinputclass {
+border: solid 0px black !important;
+    width: 132px !important;
+    text-align: right !important;
+    margin-left: 26px !important;
+}
+.unitTextClass {
+    margin-top: 1.9rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.enterAmountHBox {
+   margin-top: 37%;
+    margin-left: 3%;
+}
+.unitChangeClass {
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+    margin-top: 1.7rem;
+}
+.scrollListPanel {
+ height: 21rem !important;
+ overflow-y: scroll;
+}
+.ScanListScrollPanel{
+height: 11rem !important;
+ overflow-y: scroll;
+}
+.ordercountClass {
+      margin-left: 22%;
+    font-family: 'Arial-BoldMT', 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 11%;
+    font-size: 1.2rem;
+}
+.orderTextBlock {
+ margin-top: 4%;
+}
+.transferOrdLeftItem {
+    font-family: 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}
+.transferOrdRightItem {
+    font-family: 'Arial-BoldMT', 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 17px;
+}
+.transferOrdPanel {
+    border-bottom: 1px solid;
+    position: relative;
+    height: 5rem !important;
+    width: 90% !important;
+    margin-left: 1rem;
+}
+.trnsferOrdList li {
+margin-left: 18%;
+    background: transparent !important;
+}
+.scrollButtonClass {
+    margin-left: 48%;
+}
+.tranferPanelLabel {
+    font-family: 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    color: #333333;
+}
+.TransferordHboxclass {
+    margin-left: 0%;
+    margin-top: 1%;
+}
+.TransferLastHboxclass {
+    margin-left: 0%;
+}
+.hboxLastLabel {
+    margin-left: 5rem;
+    font-family: 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    color: #333333;
+}
+.tranferPanelText {
+    font-family: 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    color: #333333;
+}
+.hboxLastTextClass {
+   margin-left: 9.4rem;
+    font-weight: 700;
+    font-style: normal;
+    color: #333333;
+}
+.orderHeaderClass {
+    font-family: 'Arial-BoldMT', 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+   margin-left: 17%;
+    margin-top: 4%;
+    font-size: 1.5rem;
+}
+.orderListClass	.sapMLIBSelectD {
+    display: none;
+} 
+.cameraTextClass {
+ font-size: 20px;
+    font-family: 'Arial Bold', 'Arial Regular', 'Arial';
+    margin-top: 2%;
+    font-weight: bold;
+}
+.barcodeInput {
+      width: 72% !important;
+    margin-top: 10%;
+}
+.orderListClass	.sapMBtn{
+margin-bottom: 5%;
+}
+	.listHboxClass{
+        margin-left: 6%;
+	}
+	.orderListClass	.sapMBtn{
+display:none;
+}
+
+.headerClass .sapMText{
+	color:rgb(52, 97, 135);
+	font-size: 18px;
+    font-weight: bold;
+    font-family: 'Arial';
+}
+		.orderListClass .sapMLIB {
+	    height: 5rem;
+	}
+	.orderSepClass{
+	font-size: 1rem;
+	}
+	.orderListLeftItem{
+    font-family: 'Arial-BoldMT', 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;	
+}
+.orderListRightItem{
+font-family: 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9rem;
+    margin-left: 1rem;
+    font-size: 15px;	
+}
+ .listFirstHboxClass div:nth-child(2n) {
+        margin-left: 12%;
+ } 
+ .listSecHboxClass div:nth-child(2n) {
+        margin-left: 3.5%;
+ }
+ .listtThirdHboxClass div:nth-child(2n) {
+    margin-left: 4.2%;
+ }
+
+ .targetInfoClass{
+  padding-left: 15%;
+  /*  margin-top: 8%;*/
+}
+.searchOrderClass{
+padding-left: 16%;
+margin-top: 6%;
+}
+
+.searchOrderFlex{
+margin-top: 3%;	
+
+}
+.targetSelectClass{
+ width: 16rem !important;
+height: 2rem!important;
+margin-top: 5% !important;
+}
+.targetStorageBinClass{
+width: 16rem !important;
+margin-top: 5% !important;
+}
+.targetStorageBinClass .sapMInputBaseInner{
+height: 2rem!important;	
+}
+.orderClearClass div:last-child {
+     margin-right: 7%;
+}
+.SearchFragHBoxLast div:first-child {
+        width: 6rem;	
+}
+.continueBtnClass .sapMBtnText {
+    font-size: 1.5rem;
+    font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    color: #CAE4FB;
+}
+.orderCountClass {
+    font-family: 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    color: #333333 !important;
+    font-size: 1.2rem;
+    margin-top: 4%;
+}
+.orderStatusButton .sapMBtnContent {
+    font-size: 1rem;
+    font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    color: #CAE4FB;
+}
+.infoVboxClass {
+ height: 30% !important;
+ padding-top: 13%;
+ padding-left: 12%;
+ cursor: pointer;
+}
+.targetSwitchClass .sapMSwtOn .sapMSwtHandle{
+    margin-left: 49%;
+    border: 2px solid rgba(191, 191, 191, 1);
+    background: #fff;
+    height: 2.2rem;
+    width: 2.2rem;
+    border-top-left-radius: 1.75rem;
+    border-top-right-radius: 1.75rem;
+    border-bottom-right-radius: 1.75rem;
+    border-bottom-left-radius: 1.75rem;
+}
+.targetSwitchClass .sapMSwt {
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.targetSwitchClass .sapMSwtOff .sapMSwtHandle{
+	border: 2px solid rgba(191, 191, 191, 1);
+	        background: #fff;
+	        border: 2px solid rgba(191, 191, 191, 1);
+    background: #fff;
+    height: 2.2rem;
+    width: 2.2rem;
+    border-top-left-radius: 1.75rem;
+    border-top-right-radius: 1.75rem;
+    border-bottom-right-radius: 1.75rem;
+    border-bottom-left-radius: 1.75rem;
+	       
+}
+.buttonclass{
+border: 0px !important;	
+    font-size: 1.5rem !important;
+   font-family: 'Arial Bold', 'Arial';
+   background-color: transparent !important;
+    font-weight: 700;
+    font-style: normal;
+}
+.buttonCancelclass{
+    font-size: 1.5rem !important;
+	background-color: transparent !important;
+    color: #cae4fb !important;
+    border: 0px !important;
+    border-right: 2px solid !important;
+    font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+}
+.targetInfoClass .sapMFlexBox{
+    margin-top: 5%;
+}
+.targetSwitchClass .sapMSwt{
+    width: 9rem;
+    height: 2.5rem;
+}
+.targetSwitchClass{
+  margin-left: 13%;
+    margin-top: 5%;
+}
+.searchOrderClass .sapMLabel{
+color:#1E1E1E;
+font-family:Arial,Regular;
+    font-size: 14pt;
+}
+
+.targetSwitchClass .sapMSwtLabel{
+    margin-left: 2%;
+    font-size: 1rem;
+    margin-top: 5%;
+    width: 3.2rem;
+}
+.targetSwitchLabel{
+   margin-left: 15%;
+   margin-top: 6%;
+    color: #333333;
+    font-family: Arial,Bold;
+    font-size: 18pt;
+}
+.targetSwitchClass .sapMSwtOn, .sapMSwtHoverable.sapMSwtOn:not(.sapMSwtAcceptReject):hover{
+	background: #BAF2BB;
+	border-color:rgba(191, 191, 191, 1);
+	
+}
+.targetSwitchClass .sapMSwtOff, .sapMSwtHoverable.sapMSwtOff:not(.sapMSwtAcceptReject):hover{
+	background: #FFCCCC;
+	border-color:rgba(191, 191, 191, 1);
+	
+}
+.targetSwitchClass .sapMSwtOn .sapMSwtText{
+color:#1E1E1E;	
+}
+.targetInfoClass .sapMLabel{
+color: #1E1E1E;
+    font-family: Arial,Regular;
+    font-size: 14pt;
+}
+ 
+  .footerVBoxTextClass {
+    text-align: center;
+   font-size: 17px;
+    font-family: 'Arial Bold', 'Arial Regular', 'Arial';
+   position: absolute;
+       font-weight: 700;
+    
+}
+.footerVBoxClass div:last-child {
+   padding-right: 43%;
+    padding-top: 7%;
+}
+.footerSecVBoxClass div:last-child {
+    padding-top: 7%;
+    width: 74%;
+}
+.targetHInfoClass {
+ margin: 2rem;
+ font-weight: 700;
+ margin-left: 5rem;
+ margin-top: 10%;
+ font-size: 18pt;
+}
+.footerLastVBoxClass div:last-child {
+    padding-right: 37%;
+    padding-top: 7%;
+}
+.footerIconClass{
+font-size: 4.5rem;	
+}
+.footerHBoxClass{
+	text-align: center;
+	    height: 30%;
+ }
+.footerVBoxClass{
+	    width: 34%;
+    border-right: 1px solid;
+    padding-top: 10%;
+
+}
+
+.footerSecVBoxClass{
+  width: 34%;
+    border-right: 1px solid;
+    padding-top: 10%;	
+}
+.footerLastVBoxClass{
+	width:34%;	
+	padding-top: 10%;
+}
+  
+.targetHeaderClass{
+      font-weight: 700;
+    font-size: 20px;
+    margin-left: 5rem;
+    margin-top: 12%;
+}
+.footerIconClass{
+font-size: 2.5rem;
+}
+.footerHBoxClass{
+	text-align: center;
+    height: 29%;
+   
+ }
+.footerVBoxClass{
+	width:34%;
+border-right: 1px solid;
+ padding-top: 10%;
+}
+.footerLastVBoxClass{
+    width: 32%;
+    padding-top: 10%;
+}
+  .scanVboxClass{
+height: 70% !important;
+    text-align: center;
+    border-bottom: 4px solid rgba(121, 121, 121, 1);
+    cursor: pointer;
+}
+.selectButtonClass{
+margin-right: 8.4rem !important;
+}
+ .eyeIconClass{
+    width: 20%;
+    text-align: center;
+    margin-top: 27%;
+} 
+.scanTextClass {
+    font-size: 22px;
+    font-family: 'Arial';
+    font-weight: 400;
+    margin-top: 16%;
+
+}
+.scanActivateClass{
+ font-size: 22px;
+    font-family: 'Arial';
+    font-weight: 400;
+    margin-top:1rem;	
+}
+.orderDetailData{
+ font-weight: 700;
+    font-style: normal;
+   font-size: 16px;
+  }
+  .orderLabelHbox .sapMLabel{
+ font-size: 1.2rem;
+    font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    color: #333333;
+    margin-top: 18%;
+}
+.oderFlex2Class {
+    margin-left: 14.5%;
+    height: 8%;
+    margin-top: 0%;
+}
+.orderSourceClass div:first-child {
+     max-width: 58%;
+}
+.orderSourceClass div:last-child {
+         max-width: 100%;
+}
+.destDetailClass {
+    margin-left: 31%;
+}
+.flex2ChildClass div:first-child {
+    max-width: 51%;
+}
+.flex2ChildClass div:last-child {
+  margin-left: 7%;
+}
+.orderChildClass div:first-child {
+  max-width: 23%;
+}
+.orderSsccClass div:last-child {
+     margin-left: 5%;
+}
+.orderChildClass div:last-child {
+      max-width: 34%;
+       margin-left: 27%;
+}
+.orderLastChildClass div:last-child {
+    margin-right: 2%;
+}
+.stockChildClass div:last-child {
+    margin-right: 4%;
+    margin-top: 0.5rem;
+}
+.ssccTextFirst {
+  margin-top: 2rem;
+}
+.orderStockClass {
+    margin-left: 14%;
+    height: 6%;
+}
+.Sizepallet{
+	margin-left: 2rem;
+    width: 9rem;
+}
+.stockClass{
+	margin-top:12% !important;
+}
+.oderFlexClass {
+    margin-left: 14%;
+    height: 6%;
+    margin-top: 9%;
+}
+.orderbrandClass{
+ height: 10%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.flexboxTextClass{
+font-size: 1rem;
+    font-size: font-size;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-style: normal;
+}
+.acceptIconClass{
+margin-top: 42%;
+    width: 15% !important;
+}
+.orderLabelClass {
+  margin-top: 7%;
+    font-size: 1.7rem;
+    font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    color: #333333;
+}
+.createdLabelClass {
+font-size: 1.7rem;
+    font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    color: #333333;
+}
+.infoVboxClass .sapUiIcon, .SearchPanelClass .sapUiIcon {
+      color: black;
+    font-size: 2rem;
+    line-height: 2.375rem;
+    width: 5.375rem;
+}
+.openKaypadClass {
+    font-size: 2.4rem;
+}
+.enterTextClass {
+      font-size: 20px;
+    font-family: 'Arial Bold', 'Arial Regular', 'Arial';
+    font-weight: bold;
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 2%;
+    
+}
+.orderNumClass{
+	/*margin-left: 42%;*/
+ margin-top: 24%;
+font-size: 1.875rem;
+    font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    color: #333333;
+}
+.infoTextClass{
+    font-size: 32px;
+    font-family: 'Arial Bold', 'Arial Regular', 'Arial';
+    font-weight: 700;
+    margin-top: 6%;
+}
+.keypadLabelClass {
+font-size: 1.1rem;
+margin-left: 14%;
+color: #1E1E1E;
+font-family: 'Arial';
+font-weight: 400;
+font-style: normal;
+}  
+.ssccLabelClass{
+  margin-top: 18%;	
+}
+ .numBox{
+    width: 74%;
+    background: white;
+    height: 2rem;
+    text-align: left;
+    border: solid 1px black;
+    cursor: text;
+    font-size: 1.2rem;
+    font-style: italic;
+    padding-top: 1%;
+    overflow: hidden;
+    margin-left: 13%;
+    margin-top: 4.5%;
+  }
+  .ssccNumbox{
+  	 width: 74%;
+    background: white;
+    height: 2rem;
+    text-align: left;
+    border: solid 1px black;
+    cursor: text;
+    font-size: 1.2rem;
+    font-style: italic;
+    padding-top: 1%;
+    overflow: hidden;
+    margin-left: 13%;
+    margin-top: 4.5%;
+  }
+  .StorageBinBox,.ProductNameBox{
+      background: white;
+    height: 2rem;
+    text-align: left;
+    border: solid 1px #bfbfbf;
+    cursor: text;
+    font-size: 1.2rem;
+    font-style: italic;
+    padding-top: 1%;
+  }
+  	.storageBinFlex div:last-child {
+     width: 84%;
+    margin-top: 3%;
+  	}
+ .keypad {
+	width: 100%;
+    height: 222px;
+    border: solid 1px black;
+    position: absolute;
+    top: 170px;
+} 
+.ssccKeypad{
+	width: 100%;
+    height: 222px;
+    border: solid 1px black;
+    position: absolute;
+    top: 202px;
+}
+   .key {
+ border-right: solid 1px black;
+    border-bottom: solid 1px black;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #2F3C48;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+} 
+.keyright {
+    border-right: none !important;
+}
+.keylast {
+    border-right: solid 1px black;
+    border-bottom: none !important;
+}
+.btn {
+     border-right: solid 1px black;
+    text-align: center;
+    color: #2F3C48;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: white;
+    width: 33.3%;
+}
+.orderDetailsPageClass .sapMPageEnableScrolling {
+    overflow-y: hidden !important;
+}
+
+.sapUiSizeCompact .sapMDialog.sapMDialog-NoHeader:not(.sapMDialog-NoFooter):not(.sapMDialogWithSubHeader) {
+   margin-left: 2.4rem !important;
+    margin-top: 10.5rem !important;
+    margin-bottom: 13.2rem;
+    margin-right: 2.4rem;
+}
+
+.sapUiSizeCompact .sapMSelectListItem {
+    line-height: 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-bottom: 1px solid grey;
+}
+
+/*.orderDetailButton .sapMSegB .sapMSegBBtn{
+	height: 4rem;
+    padding-top: 0.2rem;
+    padding-left: 0rem !important; 
+     padding-right: 0rem !important; 
+}
+.orderDetailButton .sapMIBar>.sapMBarChild {
+	margin: 0rem !important;
+}
+
+.orderDetailButton.sapUiSizeCompact .sapMPageFooter.sapMIBar {
+     height: 0rem !important; 
+}*/
+
+}

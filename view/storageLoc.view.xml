@@ -1,0 +1,43 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="TransferOrder.controller.storageLoc"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:tnt="sap.tnt">
+	<App >
+		<pages>
+			<Page showHeader="false" class= "orderDetailsPageClass">
+				<content>
+	<Label text="Syötä SSCC-koodi" class="keypadLabelClass ssccLabelClass"></Label>
+		<html:div id="numericInput1" class ="numericInput">
+		
+  <html:div id="numBox1" class = "ssccNumbox"></html:div>
+  <html:table id="keypad" class="ssccKeypad">
+    <html:tr>
+      <html:td class="key">1</html:td>
+      <html:td class="key">2</html:td>
+      <html:td class="key keyright">3</html:td>
+    </html:tr>
+    <html:tr>
+      <html:td class="key">4</html:td>
+      <html:td class="key">5</html:td>
+      <html:td class="key keyright">6</html:td>
+    </html:tr>
+    <html:tr>
+      <html:td class="key">7</html:td>
+      <html:td class="key">8</html:td>
+      <html:td class="key keyright">9</html:td>
+    </html:tr>
+    <html:tr>
+      <html:td class="btn">C</html:td>
+      <html:td class=" key keylast">0</html:td>
+      <html:td class="btn keyright">_</html:td>
+    </html:tr>
+  </html:table>
+</html:div>
+				</content>
+					<footer>
+			<Toolbar class="toolbarClass keypadToolbar">
+				<Button text="Jatka" press="onPressContinue" class="continueBtnClass"></Button>
+			</Toolbar>
+		</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

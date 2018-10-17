@@ -1,0 +1,204 @@
+.listVboxClass{
+text-align: center;
+	cursor: pointer;	
+}
+.listVboxClass .sapMPanelContent{
+	    border-bottom: 0px solid #cccccc !important;
+}
+.orderListClass .sapMLIB{
+	  border-bottom:1px solid;
+	      
+}
+.errorrSelectedClass {
+    background-color: rgba(255, 204, 204, 1);
+ text-align: center;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 auto;
+}
+	.storageBinFlex div:last-child {
+    width: 55.3%;
+  	}
+  	.StorageBinBox, .ProductNameBox{
+    width: 34.2%;
+    display: block;
+    background: white;
+    height: 1.3rem;
+    text-align: left;
+    border: solid 1px #bfbfbf;
+    cursor: text;
+    font-size: 1.2rem;
+    font-style: italic;
+    padding-top: 1%;
+  }
+.sapContrast.sapMPageFooter.sapMTB, .sapContrast .sapMPageFooter.sapMTB {
+    border-bottom-width: 0;
+   height: 3rem !important;
+   
+}
+.key:active, .btn:active {
+    background-color: rgba(172, 200, 223, 1);
+}
+.closebuttonClass .sapMBtnActive.sapMBtnTransparent, 
+.orderDetailButton.sapContrast .sapMSegBBtn.sapMSegBBtnFocusable.sapMSegBBtnSel,
+.continueToolbar.sapMBtnActive.sapMBtnTransparent  {
+background-color:transparent !important;
+ color: #cae4fb !important;
+
+}
+* {
+    outline: none !important;
+}
+.listBGColor{
+	    background-color: #BAF2BB !important;
+}
+.listViewBG .sapMLIB{
+ background: #BAF2BB !important;	
+}
+.margen{
+	margin-left: 30.5rem;
+}
+.HBoxClass{
+	height: 100%;
+
+}
+* {
+	text-decoration: none !important;
+}
+.targetHInfoClass{
+ margin: 2rem;
+     font-weight: 700;
+     font-size: 2rem;
+     margin-left: 33rem;
+    margin-top: 4%;
+}
+.form-custom-label{
+	font-size: 1.4rem;
+    
+}
+.formLableSwich{
+	font-size: 1.4rem;
+    margin-left:8rem;
+}
+
+.headerClass{
+background-color: rgb(161, 191, 216) !important;
+border: 0px solid !important;
+}
+.headerClass .sapMBtnIcon{
+	color: rgb(52, 97, 135) !important;
+}
+
+.SearchPanelClass{
+height: 20% !important;
+text-align: center;
+padding-top: 5%;
+padding-right: 10%;
+cursor: pointer;
+border-bottom: .25rem solid grey;
+border-top: none;
+}
+
+.infoVboxClass .sapMPanelContent:not(.sapMPanelBGTransparent), .SearchPanelClass .sapMPanelContent:not(.sapMPanelBGTransparent){
+ border-bottom: 0px solid #cccccc; 
+}
+
+
+.scanVboxClass .sapMPanelContent:not(.sapMPanelBGTransparent){
+border-bottom: 0px solid #cccccc; 
+}
+
+
+.closeImageClass{
+position: fixed;
+z-index: 13;
+bottom: 86%;
+left: 92%;
+}
+
+
+.orderLabelHbox .sapMFlexItem{
+	margin:0 auto;
+}
+
+.numericInput {
+  position: relative;
+}
+.toolbarClass{
+align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.orderPagebg{
+background-color: #BAF2BB;
+ text-align: center;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 auto;
+}
+
+.statusPageClass .sapMPageEnableScrolling{
+overflow-y: hidden !important;	
+}
+.statusPageClass .sapMPanelContent{
+	    border-bottom: 0px solid #cccccc !important;
+}
+.toolbarClass .sapMBtn{
+font-size: 1.5rem;	
+}
+.orderGridClass{
+	text-align:center;
+}
+.orderDetailText{
+	font-size:1.5rem;
+}
+.orderDetailButton .sapMSegB{
+width:100% !important;	
+}
+
+.orderDetailButton .buttonclass{
+ border-right-color: white;
+}
+
+.selectListClass .sapMSelectListItem{
+text-align:center;	
+font-weight: bold;
+}
+.selectListClass .sapMSelectListItemBaseSelected {
+background-color: rgba(204, 255, 204, 1);	
+}
+
+.selectButtonClass .sapMBtnContent{
+font-size:1.22rem
+}
+.statusPageClass{
+	background-color: rgba(239, 244, 249, 1);
+}
+.orderDetailsPageClass{
+background-color: rgba(239, 244, 249, 1);	
+}
+.eventTypeDialogClass .sapMTitle{
+	font-family: 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    color: #333333 !important;
+}
+
+.sapMSegBBtn.sapMSegBBtnSel {
+    background: rgb(161, 191, 216) !important;
+}
+.footerVBoxClass {
+cursor: pointer;
+}
+.footerSecVBoxClass {
+cursor: pointer;
+}
+.footerLastVBoxClass {
+cursor: pointer;
+}
+.toolbarSelectedClass{
+background-color: rgb(161, 191, 216) !important;	
+}
+.toolbarSelectedClass .sapMBtnText{
+color:rgb(52, 97, 135) !important;
+}

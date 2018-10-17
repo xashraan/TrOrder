@@ -1,0 +1,271 @@
+{
+    "_version": "1.7.0",
+    "sap.app": {
+        "id": "TransferOrder",
+        "type": "application",
+        "i18n": "i18n/i18n.properties",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
+        "title": "{{appTitle}}",
+        "description": "{{appDescription}}",
+        "sourceTemplate": {
+            "id": "ui5template.basicSAPUI5ApplicationProject",
+            "version": "1.40.12"
+        },
+        "dataSources": {
+            "ZFIORI_WM_TRANSFER_ORDER_SRV": {
+                "uri": "/sap/opu/odata/sap/ZFIORI_WM_TRANSFER_ORDER_SRV/",
+                "type": "OData",
+                "settings": {
+                    "odataVersion": "2.0",
+                    "localUri": "localService/metadata.xml"
+                }
+            }
+        }
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+            "icon": "",
+            "favIcon": "",
+            "phone": "",
+            "phone@2": "",
+            "tablet": "",
+            "tablet@2": ""
+        },
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        },
+        "supportedThemes": [
+            "sap_hcb",
+            "sap_belize"
+        ]
+    },
+    "sap.ui5": {
+        "rootView": {
+            "viewName": "TransferOrder.view.view1",
+            "type": "XML"
+        },
+        "dependencies": {
+            "minUI5Version": "1.30.0",
+            "libs": {
+                "sap.ui.core": {},
+                "sap.m": {},
+                "sap.ui.layout": {},
+                "sap.ushell": {},
+                "sap.collaboration": {},
+                "sap.ui.comp": {},
+                "sap.uxap": {}
+            }
+        },
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "settings": {
+                    "bundleName": "TransferOrder.i18n.i18n"
+                }
+            },
+            "oDataModel": {
+                "type": "sap.ui.model.odata.ODataModel",
+                "dataSource": "ZFIORI_WM_TRANSFER_ORDER_SRV"
+            }
+        },
+        "routing": {
+            "config": {
+                "routerClass": "sap.m.routing.Router",
+                "viewType": "XML",
+                "viewPath": "TransferOrder.view",
+                "controlId": "app",
+                "controlAggregation": "pages"
+            },
+            "routes": [
+                {
+                    "pattern": "",
+                    "name": "overview",
+                    "target": "overview"
+                },
+                {
+                    "pattern": "orderStatusDetail",
+                    "name": "orderStatusDetail",
+                    "target": "orderStatusDetail"
+                },
+                {
+                    "pattern": "searchOrder",
+                    "name": "searchOrder",
+                    "target": "searchOrder"
+                },
+                {
+                    "pattern": "transferOrder",
+                    "name": "transferOrder",
+                    "target": "transferOrder"
+                },
+                {
+                    "pattern": "targetInformation",
+                    "name": "targetInformation",
+                    "target": "targetInformation"
+                },
+                {
+                    "pattern": "enterStorageBin",
+                    "name": "enterStorageBin",
+                    "target": "enterStorageBin"
+                },
+                {
+                    "pattern": "replenishmentOrder",
+                    "name": "replenishmentOrder",
+                    "target": "replenishmentOrder"
+                },
+                {
+                    "pattern": "orderDetails/:SSCC:",
+                    "name": "orderDetails",
+                    "target": "orderDetails"
+                },
+                {
+                    "pattern": "storageLoc",
+                    "name": "storageLoc",
+                    "target": "storageLoc"
+                },
+                {
+                    "pattern": "orderStatusDetail",
+                    "name": "orderStatusDetail",
+                    "target": "orderStatusDetail"
+                },
+                {
+                    "pattern": "ListView/:SSCC:",
+                    "name": "ListView",
+                    "target": "ListView"
+                },
+                {
+                    "pattern": "listTargetInfo",
+                    "name": "listTargetInfo",
+                    "target": "listTargetInfo"
+                },
+                {
+                    "pattern": "orderData",
+                    "name": "orderData",
+                    "target": "orderData"
+                },
+                {
+                    "pattern": "allOrderList",
+                    "name": "allOrderList",
+                    "target": "allOrderList"
+                },
+                {
+                    "pattern": "moveProduct",
+                    "name": "moveProduct",
+                    "target": "moveProduct"
+                },
+                {
+                    "pattern": "searchBrand",
+                    "name": "searchBrand",
+                    "target": "searchBrand"
+                },
+                {
+                    "pattern": "amountMoveProduct",
+                    "name": "amountMoveProduct",
+                    "target": "amountMoveProduct"
+                },
+                {
+                    "pattern": "enterSourceInfo",
+                    "name": "enterSourceInfo",
+                    "target": "enterSourceInfo"
+                },
+                {
+                    "pattern": "enterProductNumber",
+                    "name": "enterProductNumber",
+                    "target": "enterProductNumber"
+                },
+                {
+                    "pattern": "orderError",
+                    "name": "orderError",
+                    "target": "orderError"
+                }
+            ],
+            "targets": {
+                "overview": {
+                    "viewName": "ScanArtical"
+                },
+                "searchOrder": {
+                    "viewName": "searchOrder"
+                },
+                "transferOrder": {
+                    "viewName": "transferOrder"
+                },
+                "targetInformation": {
+                    "viewName": "targetInformation"
+                },
+                "enterStorageBin": {
+                    "viewName": "enterStorageBin"
+                },
+                "replenishmentOrder": {
+                    "viewName": "replenishmentOrder"
+                },
+                "orderDetails": {
+                    "viewName": "orderDetails"
+                },
+                "storageLoc": {
+                    "viewName": "storageLoc"
+                },
+                "orderStatusDetail": {
+                    "viewName": "orderStatusDetail"
+                },
+                "ListView": {
+                    "viewName": "ListView"
+                },
+                "listTargetInfo": {
+                    "viewName": "listTargetInfo"
+                },
+                "orderData": {
+                    "viewName": "orderData"
+                },
+                "allOrderList": {
+                    "viewName": "allOrderList"
+                },
+                "moveProduct": {
+                    "viewName": "moveProduct"
+                },
+                "searchBrand": {
+                    "viewName": "searchBrand"
+                },
+                "amountMoveProduct": {
+                    "viewName": "amountMoveProduct"
+                },
+                "enterSourceInfo": {
+                    "viewName": "enterSourceInfo"
+                },
+                "enterProductNumber": {
+                    "viewName": "enterProductNumber"
+                },
+                "orderError": {
+                    "viewName": "orderError"
+                }
+            }
+        },
+        "resources": {
+            "css": [
+                {
+                    "uri": "css/style.css"
+                },
+                {
+                    "uri": "css/Mobile.css"
+                },
+                {
+                    "uri": "css/Tablet.css"
+                },
+                {
+                    "uri": "css/Desktop.css"
+                }
+            ]
+        }
+    },
+    "sap.platform.abap": {
+        "uri": "/sap/bc/ui5_ui5/sap/zfiori_wm_tr_or",
+        "_version": "1.1.0"
+    }
+}

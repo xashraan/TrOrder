@@ -1,0 +1,54 @@
+<mvc:View controllerName="TransferOrder.controller.SearchOrder" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:l="sap.ui.layout"  xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form">
+	<App class="pageAppClass">
+		<pages>
+			<Page showHeader="false" class="statusPageClass">
+				<content>
+					<Text text="Suodata hakutuloksia" class="targetHeaderClass"></Text>
+					<Panel class="searchOrderClass">
+						<FlexBox direction="Column" alignItems="Start" class="searchOrderFlex">
+							<items>
+								<Label text="Varastotyyppi"></Label>
+								<FlexBox direction="Column" alignItems="Start">
+									<items>
+										<Select forceSelection="false" items="{ path: 'oDataModel>/MovtTypeSet', sorter: { path: 'oDataModel>Bwlvs' }}" class="targetSelectClass">
+											<core:Item text="{oDataModel>Bwlvs}"/>
+										</Select>
+									</items>
+								</FlexBox>
+							</items>
+						</FlexBox>
+						<ToolbarSpacer/>
+						<FlexBox direction="Column" alignItems="Start" class="searchOrderFlex storageBinFlex">
+							<items>
+								<Label text="Lähdevarastopaikka"></Label>
+							<html:div  id="idSourceBox" class="StorageBinBox" ></html:div>
+							</items>
+						</FlexBox>
+						<ToolbarSpacer/>
+						<FlexBox direction="Column" alignItems="Start" class="searchOrderFlex storageBinFlex">
+							<items>
+								<Label text="Tuotenimi"></Label>
+								<html:div  id="idProductName" class="ProductNameBox" ></html:div>
+							</items>
+						</FlexBox>
+						<FlexBox direction="Column" alignItems="Start" class="searchOrderFlex">
+							<items>
+								<Label text="Varastoluokka"></Label>
+								
+								<Select forceSelection="false"  class="targetSelectClass" items="{ path: 'oDataModel>/StorageCategorySet', sorter: { path: 'oDataModel>StorageCat' }}">
+									<core:Item text="{oDataModel>StorageCat}, {oDataModel>Description}"/>
+								</Select>
+							</items>
+						</FlexBox>
+					</Panel>
+				</content>
+				<footer>
+					<Toolbar class="toolbarClass searchOrderToolbar">
+						<Button text="{i18n>searchresultsText}" press="onPressContinue" class="continueBtnClass"></Button>
+					</Toolbar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

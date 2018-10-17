@@ -1,0 +1,25 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="TransferOrder.controller.searchBrand"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="Title" showHeader="false" class="statusPageClass">
+				<content>
+					<Text text="Suodata hakutuloksia" class="targetHeaderClass" visible="false" id="searchBrandHLabel"></Text>
+					<Label class="brandlabel" id="brandText"></Label>
+					<!--	<SearchField class="brandsearchclass" liveChange ="onSearchBrand"></SearchField>-->
+					<SearchField id="searchField" class="brandsearchclass" enableSuggestions="true" placeholder="search for..." suggest="onSearchBrand"
+						suggestionItems="{ async:false, path: 'oDataModel>/BrandNameSet' }">
+						<suggestionItems>
+							<SuggestionItem text="{oDataModel>Maktx}"/>
+						</suggestionItems>
+					</SearchField>
+				</content>
+				<footer>
+					<Toolbar class="toolbarClass keypadToolbar">
+						<Button text="Jatka" press="onPressContinue" class="continueBtnClass"></Button>
+					</Toolbar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

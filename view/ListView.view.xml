@@ -1,0 +1,53 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="TransferOrder.controller.ListView"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:tnt="sap.tnt">
+	<App>
+		<pages>
+			<Page title="Title" showHeader="false" class="statusPageClass">
+				<content>
+					<Panel class="ScanListScrollPanel">
+						<List id="orderList" class="orderListClass listViewBG" items="{orderListItem>/}" mode="Delete" press="onPressDelete" showNoData="false"
+							>
+							<CustomListItem>
+								<Button icon="img/checkbox_unchecked.png" type="Transparent" class="rightarrowbutton"></Button>
+								<HBox class="listHboxClass listFirstHboxClass">
+									<Text text="SSCC" class="orderListLeftItem"></Text>
+									<Text text=":" class="orderSepClass"></Text>
+									<Text text="{orderListItem>Lenum}" class="orderListRightItem"></Text>
+								</HBox>
+								<HBox class="listHboxClass listSecHboxClass">
+									<Text text="Tuotenimi" class="orderListLeftItem"></Text>
+									<Text text=":" class="orderSepClass"></Text>
+									<Text text="{orderListItem>Maktx}" class="orderListRightItem"></Text>
+								</HBox>
+								<HBox class="listHboxClass listtThirdHboxClass">
+									<Text text="VY-tyyppi" class="orderListLeftItem"></Text>
+									<Text text=":" class="orderSepClass"></Text>
+									<Text text="{orderListItem>Letyp}" class="orderListRightItem"></Text>
+								</HBox>
+							</CustomListItem>
+							<swipeContent>
+								<core:Icon src="sap-icon://sys-cancel" press="onPressDelete"/>
+							</swipeContent>
+						</List>
+					</Panel>
+					<Panel class="listVboxClass">
+						<VBox>
+							<ToolbarSpacer/>
+							<Text text="{i18n>scanText}" class="scanActivateClass"></Text>
+							<ToolbarSpacer/>
+							<Text text="{i18n>infoText}" class="infoTextClass"></Text>
+							<Input id="Idinput" value="" width="50%" liveChange="inputLiveChange" class="barcodeInput"/>
+							<core:Icon src="sap-icon://camera" class="cameraIconClass" press="fnCameraScan"></core:Icon>
+							<Text text="{i18n>cameraText}" class="cameraTextClass"></Text>
+						</VBox>
+					</Panel>
+				</content>
+				<footer>
+					<Toolbar class="toolbarClass keypadToolbar">
+						<Button text="Syötä kohde" press="onPressContinue" class="continueBtnClass"></Button>
+					</Toolbar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

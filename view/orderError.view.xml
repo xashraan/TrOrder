@@ -1,0 +1,28 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="TransferOrder.controller.orderError"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page showHeader="false" class="statusPageClass">
+				<content>
+					<Panel class="errorrSelectedClass" >
+						<Image src="{Images>/ImagePath}/Error.png" width="6%" class="acceptIconClass"></Image>
+						<ToolbarSpacer/>
+						<Label text="Täydennys ei" class="orderLabelClass"></Label>
+						<ToolbarSpacer/>
+						<Label text="mahdollista" class="createdLabelClass"></Label>
+						<ToolbarSpacer/>
+						<Label text="Tuotetta ei saatavilla" class="orderNumClass"></Label>
+						<ToolbarSpacer/>
+						<Text text="00.00.00" class="orderCountClass"></Text>
+						<VBox class="vboxClass"></VBox>
+					</Panel>
+				</content>
+				<footer>
+					<Toolbar class="toolbarClass">
+						<Button text="Palaa alkuun" press="onPressCreate" class="orderStatusButton"></Button>
+					</Toolbar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

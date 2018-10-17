@@ -1,0 +1,37 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="TransferOrder.controller.allOrderList"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="Title" showHeader="false" class="statusPageClass">
+				<content>
+					<Label text = "Valitse kaikkis" class="allListLabel"></Label>
+					 <List id="orderList" class = "orderListClass allorderListclass" items="{allOrderList>/}" mode="Delete" delete ="onPressDelete">
+    			<CustomListItem>
+    			 <!--<Button icon="img/checkbox_unchecked.png" type="Transparent" class="rightarrowbutton"></Button>	-->
+			<HBox class="listHboxClass listFirstHboxClass">
+				<Text text="SSCC" class="orderListLeftItem"></Text>
+				<Text text=":" class="orderSepClass"></Text>
+				<Text text="{allOrderList>SSCC}" class="orderListRightItem"></Text>
+			</HBox>
+				<HBox class="listHboxClass listSecHboxClass">
+				<Text text="Tuotenimi" class="orderListLeftItem"></Text>
+				<Text text=":" class="orderSepClass"></Text>
+				<Text text="{allOrderList>Tuotenimi}" class="orderListRightItem"></Text>
+			</HBox>
+				<HBox class="listHboxClass listtThirdHboxClass">
+				<Text text="VY-tyyppi" class="orderListLeftItem" ></Text>
+				<Text text=":" class="orderSepClass"></Text>
+				<Text text="{allOrderList>VY-tyyppi}" class="orderListRightItem"></Text>
+			</HBox>
+			</CustomListItem>
+			</List>
+				</content>
+					<footer>
+			<Toolbar class="toolbarClass keypadToolbar">
+				<Button text="Tallenna tilaukselle (+1)" press="onPressContinue" class="continueBtnClass"></Button>
+			</Toolbar>
+		</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

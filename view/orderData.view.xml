@@ -1,0 +1,38 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="TransferOrder.controller.orderData"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="Title" showHeader="false" class="statusPageClass">
+				<content>
+						<Label text="Siirtotilausten tiedot" class="orderHeaderClass"></Label>
+					<Panel class= "transferOrdPanel">
+					<HBox class="TransferordHboxclass">
+					<Label text="Tapahtumalaji" class="tranferPanelLabel"></Label>
+						<Label text="Kuitattu heti" class="hboxLastLabel"></Label>
+					</HBox>
+						<HBox class="TransferLastHboxclass">
+				<Text text = "999" class="tranferPanelText"></Text>
+				<Text text = "EI" class="hboxLastTextClass"></Text>
+					</HBox>
+					</Panel>
+					<Panel class="scrollListPanel">
+					 <List id="orderList" items="{orderListItem>/}" class="trnsferOrdList" >
+    			<CustomListItem>
+    			<core:Fragment fragmentName = "TransferOrder.fragment.Search" type="XML"/> 
+    			</CustomListItem>
+    			</List>
+    			</Panel>
+    			<!--	<Button type ="transparent" icon= "sap-icon://navigation-down-arrow" press="onclickScroll" class="scrollButtonClass"></Button>-->
+				</content>
+				<footer>
+<Toolbar class="orderDetailButton">
+<SegmentedButton selectedButton="none">
+<Button text="Keskeytä" class="buttonCancelclass" ></Button>
+<Button text="Hyväksy" press="onPressAccept" class="buttonclass" ></Button>
+</SegmentedButton>
+</Toolbar>
+</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

@@ -1,0 +1,483 @@
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+		.cameraIconClass {
+    font-size: 3.5rem;
+    margin-top: 3%;
+}
+.orderListClass	.sapMLIBSelectD {
+    display: none;
+} 
+.listVboxClass {
+ 
+    margin-top: 20%;
+}
+.cameraTextClass {
+    font-size: 27px;
+    font-family: 'Arial Bold', 'Arial Regular', 'Arial';
+    margin-top: 1%;
+    font-weight: bold;
+}
+.barcodeInput {
+    width: 34% !important;
+    margin-top: 3%;
+}
+.orderListClass	.sapMBtn{
+margin-bottom: 5%;
+}
+	.listHboxClass{
+        margin-left: 6%;
+	}
+	.headerClass .sapMText{
+	color:rgb(52, 97, 135);
+	font-size: 21px;
+    font-weight: bold;
+    font-family: 'Arial';
+}
+	.orderListClass	.sapMBtn{
+display:none;
+}
+		.orderListClass .sapMLIB {
+		height:7rem;
+	}
+	.orderSepClass{
+		    font-size: 1.6rem;
+	}
+	.orderListLeftItem{
+font-family: 'Arial-BoldMT', 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;	
+}
+.orderListRightItem{
+	font-family: 'Arial';
+    font-weight: 400;
+     font-style: normal;
+    font-size: 1.5rem;
+    margin-left: 1rem;	
+}
+ .listFirstHboxClass div:nth-child(2n) {
+       margin-left: 9%;
+ } 
+ .listSecHboxClass div:nth-child(2n) {
+           margin-left: 2.1%;
+ }
+ .listtThirdHboxClass div:nth-child(2n) {
+        margin-left: 2.76%;
+ }
+.targetInfoClass{
+  padding-left: 16%;
+   margin-top: 8%;
+}
+.targetHInfoClass {
+    margin: 2rem;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-left: 15rem;
+    margin-top: 7%;
+}
+.btn {
+    border-right: solid 1px black;
+    text-align: center;
+    color: #2F3C48;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    cursor: pointer;
+    /* background-color: DimGray; */
+    width: 33.3%;
+}
+.keylast {
+   border-bottom: none !important;
+}
+.orderStatusButton .sapMBtnContent{
+	font-size:1.5rem;
+	font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    /* font-size: 36px; */
+    color: #CAE4FB;
+}
+.searchOrderClass{
+       padding-left: 17%;
+    margin-top: 7%;
+}
+.searchOrderFlex{
+margin-top: 7%;	
+}
+.buttonclass{
+border: 0px !important;	
+font-size:1.5rem !important;
+   font-family: 'Arial Bold', 'Arial';
+       background-color: transparent !important;
+    font-weight: 700;
+    font-style: normal;
+}
+.buttonCancelclass{
+	font-size:1.5rem !important;
+	 background-color: transparent !important;
+    color: #cae4fb !important;
+    border: 0px !important;
+    border-right: 2px solid !important;
+    font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+}
+.targetSelectClass{
+    width: 31rem !important;
+    height: 4rem;
+}
+.targetSelectClass .sapMSltArrow{
+	    font-size: 1.5rem;
+    top: 5px;
+}
+.infoVboxClass {
+      height: 30% !important;
+    text-align: center;
+    padding-top: 12%;
+    padding-right: 36%;
+    cursor: pointer;
+
+}
+.openKaypadClass {
+    font-size: 3.5rem;
+}
+.targetSwitchClass .sapMSwtOn .sapMSwtHandle{
+    margin-left: 66%;
+    border: 2px solid rgba(191, 191, 191, 1);
+    background: #fff;
+    width: 3rem;
+    border-top-left-radius: 1.75rem;
+    border-top-right-radius: 1.75rem;
+    border-bottom-right-radius: 1.75rem;
+    border-bottom-left-radius: 1.75rem;
+        height: 3rem;
+}
+.continueBtnClass .sapMBtnText {
+    font-size: 1.8rem;
+    font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    /* font-size: 36px; */
+    color: #CAE4FB;
+}
+.targetSwitchClass .sapMSwtOff .sapMSwtHandle{
+	border: 2px solid rgba(191, 191, 191, 1);
+	        background: #fff;
+	        width: 3rem;
+    border-top-left-radius: 1.75rem;
+    border-top-right-radius: 1.75rem;
+    border-bottom-right-radius: 1.75rem;
+    border-bottom-left-radius: 1.75rem;
+        height: 3rem;
+	       
+}
+.buttonclass {
+    border: 0px !important;
+    font-size: 1.5rem !important;
+    font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+}
+.targetInfoClass .sapMFlexBox{
+margin-top: 5%;
+}
+.targetSwitchClass .sapMSwt{
+    width: 17rem;
+    height: 4rem;
+        border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+.targetSwitchClass{
+      margin-left: 18%;
+    margin-top: 2%;
+}
+.searchOrderClass .sapMLabel{
+    color: #1E1E1E;
+    font-family: Arial,Regular;
+    font-size: 25pt;
+
+}
+
+.targetSwitchClass .sapMSwtLabel{
+font-size: 2rem;
+    width: 3em;
+   
+    margin-top: 6%;
+}
+.targetSwitchLabel{
+margin-left: 23%;
+    margin-top: 7%;
+    color: #333333;
+    font-family: Arial,Bold;
+    font-size: 30pt;
+}
+.targetSwitchClass .sapMSwtOn, .sapMSwtHoverable.sapMSwtOn:not(.sapMSwtAcceptReject):hover{
+	background: #BAF2BB;
+	border-color:rgba(191, 191, 191, 1);
+	
+}
+.targetSwitchClass .sapMSwtOff, .sapMSwtHoverable.sapMSwtOff:not(.sapMSwtAcceptReject):hover{
+	background: #FFCCCC;
+	border-color:rgba(191, 191, 191, 1);
+	
+}
+.targetSwitchClass .sapMSwtOn .sapMSwtText{
+color:#1E1E1E;	
+    margin-left: 4%;
+}
+.targetInfoClass .sapMLabel{
+	    color: #1E1E1E;
+    font-family: Arial,Regular;
+        font-size: 25pt;
+}
+.targetHeaderClass{
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-left: 12rem;
+    margin-top: 9%;
+}
+.footerVBoxTextClass {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Arial Bold', 'Arial Regular', 'Arial';
+   position: absolute;
+    
+}
+.footerVBoxClass div:last-child {
+    padding-right: 70%;
+    padding-top: 7%;
+}
+.footerSecVBoxClass div:last-child {
+    padding-top: 7%;
+    padding-right: 42%;
+}
+.footerLastVBoxClass div:last-child {
+        padding-right: 62%;
+    padding-top: 7%;
+}
+.footerIconClass{
+font-size: 4.5rem;	
+}
+.footerHBoxClass{
+	text-align: center;
+	    height: 30%;
+ }
+.footerVBoxClass{
+	    width: 34%;
+    border-right: 1px solid;
+    padding-top: 10%;
+
+}
+
+.footerSecVBoxClass{
+  width: 34%;
+    border-right: 1px solid;
+    padding-top: 10%;	
+}
+.footerLastVBoxClass{
+	width:34%;	
+	padding-top: 10%;
+}
+.scanVboxClass{
+    height: 70% !important;
+    text-align: center;
+    border-bottom: 4px solid rgba(121, 121, 121, 1);
+    cursor: pointer;
+}
+.selectButtonClass{
+margin-right: 8.4rem !important;
+}
+.eyeIconClass{
+    width: 16%;
+    text-align: center;
+    margin-top: 30%;
+}
+.scanTextClass {
+    font-size: 32px;
+    font-family: 'Arial';
+    font-weight: 400;
+    margin-top: 7%;
+}
+.acceptIconClass{
+    margin-top: 36%;
+    width: 12% !important;
+}
+.orderLabelClass {
+    /* margin-left: 34%; */
+    margin-top: 7%;
+    font-size: 2.8rem;
+    font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    color: #333333;
+}
+.createdLabelClass {
+    /* margin-left: 44%; */
+    font-size: 2.8rem;
+    font-weight: bold;
+    font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    color: #333333;
+}
+.orderLabelHbox .sapMLabel{
+font-size: 2rem;
+margin-top: 3rem;
+font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    color: #333333;
+}
+.orderbrandClass{
+margin-left: 18%;
+height: 8%;
+margin-top: 4%;	
+}
+.orderNumClass{
+    margin-top: 24%;
+    font-size: 2.5rem;
+    font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    color: #333333;
+}
+.orderCountClass {
+    font-family: 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    color: #333333 !important;
+    font-size: 1.98rem;
+    margin-top: 4%;
+}
+.oderFlexClass{
+margin-left: 14%;
+height: 6%;
+margin-top: 9%;
+}
+.flexboxTextClass{
+	font-size: 2rem;
+}
+.orderStockClass {
+    margin-left: 14%;
+    height: 6%;
+}
+.enterTextClass{
+    font-size: 32px;
+    font-family: 'Arial Bold', 'Arial Regular', 'Arial';
+    font-weight: bold;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 0.8%;
+}
+.orderDetailsPageClass .sapMPageEnableScrolling {
+    overflow-y: hidden !important;
+}
+.infoTextClass{
+    font-size: 40px;
+    font-family: 'Arial Bold', 'Arial Regular', 'Arial';
+    font-weight: 700;
+    margin-top: 5%;
+}
+.keypadLabelClass{
+       font-size: 2rem;
+    margin-left: 13%;
+    position: absolute;
+    top: 13%;
+    color: #1E1E1E;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-style: normal;
+}
+ .numBox{
+     width: 74%;
+    height: 47px;
+    text-align: left;
+    border: solid 1px black;
+    cursor: text;
+    font-size: 2.5rem;
+    overflow: hidden;
+    margin-left: 13%;
+    margin-top: 23%;
+  }
+ .keypad {
+     width: 100%;
+    height: 480px;
+    border: solid 1px black;
+    /* display: none; */
+    position: absolute;
+    top: 273px;
+}   
+.orderDetailData{
+ font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+        font-size: 2rem;
+  }
+  .orderChildClass div:first-child {
+       max-width: 21%;
+}
+.orderChildClass div:last-child {
+  max-width: 32%;
+    margin-left: 28%;
+}
+  .orderSourceClass div:first-child {
+    max-width: 16%;
+}
+.orderSourceClass div:last-child {
+    max-width: 16%;
+        margin-left: 33%;
+}
+  .flex2ChildClass div:first-child {
+    max-width: 51%;
+}
+.flex2ChildClass div:last-child {
+         margin-right: 13%;
+}
+.orderSsccClass div:last-child {
+ margin-right: 7.5%;
+}
+.orderLastChildClass div:last-child {
+margin-right: 2%;	
+}
+.orderClearClass div:last-child {
+    margin-right: 3%;	
+}
+.stockChildClass div:last-child {
+       margin-right: 4%;
+}
+  .Sizepallet{
+	margin-left: 2rem;
+    width: 9rem;
+}
+  .oderFlex2Class{
+    margin-left: 14.5%;
+    height: 8%;
+    margin-top: 0%;
+}
+.keyright {
+    border-right: none !important;
+}
+   .key {
+    border-right: solid 1px black;
+    border-bottom: solid 1px black;
+    background-color: white;
+    text-align: center;
+    font-size: 3.5rem;
+    color: #2F3C48;
+    cursor: pointer;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-style: normal;
+} 
+  .infoVboxClass .sapUiIcon, .SearchPanelClass .sapUiIcon{
+	color: black;
+	font-size: 3.4rem;
+    line-height: 2.375rem;
+    width: 8.375rem;
+} 
+}

@@ -1,0 +1,95 @@
+<core:FragmentDefinition xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m"
+	xmlns:l="sap.ui.layout" xmlns:tnt="sap.tnt" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form">
+	<FlexBox class="sapUiSmallMargin" alignItems="Start" justifyContent="Start">
+		<items>
+			<f:Form editable="true" ariaLabelledBy="Title1" class="infoFragmentForm">
+				<f:layout>
+					<f:ResponsiveGridLayout/>
+				</f:layout>
+				<f:formContainers>
+					<f:FormContainer ariaLabelledBy="Title2">
+						<f:formElements>
+							<f:FormElement >
+								<f:fields>
+									<Label class="form-custom-label" text="{i18n>eventTypeText}" >
+										<layoutData>
+											<l:GridData span="L12 M12 S12"/>
+										</layoutData>
+									</Label>
+									<Select forceSelection="false" items="{ path: 'EventModel>/', sorter: { path: 'EventModel>EventType' } }" >
+										<layoutData>
+											<l:GridData span="L6 M12 S12"/>
+										</layoutData>
+										<core:Item text="{EventModel>EventType}"/>
+									</Select>
+								</f:fields>
+							</f:FormElement>
+							<f:FormElement >
+								<f:fields>
+									<Label class="form-custom-label" text="{i18n>brandnameText}"  >
+										<layoutData>
+											<l:GridData span="L12 M12 S12"/>
+										</layoutData>
+									</Label>
+									<Select forceSelection="false" items="{ path: 'storageModel>/', sorter: { path: 'storageModel>storageType' } }" >
+										<layoutData>
+											<l:GridData span="L6 M12 S12"/>
+										</layoutData>
+										<core:Item text="{storageModel>storageType}"/>
+									</Select>
+								</f:fields>
+							</f:FormElement>
+							<f:FormElement>
+								<f:fields>
+									<Label class="form-custom-label" text="{i18n>storagePlaceText}">
+										<layoutData>
+											<l:GridData span="L12 M12 S12"/>
+										</layoutData>
+									</Label>
+									<Select forceSelection="false" items="{ path: 'EventModel>/', sorter: { path: 'EventModel>EventType' } }">
+										<layoutData>
+											<l:GridData span="L6 M12 S12"/>
+										</layoutData>
+										<core:Item text="{EventModel>EventType}"/>
+									</Select>
+								</f:fields>
+							</f:FormElement>
+							<f:FormElement>
+								<f:fields>
+									<Label class="form-custom-label">
+										<layoutData>
+											<l:GridData span="L12 M12 S12"/>
+										</layoutData>
+									</Label>
+								</f:fields>
+							</f:FormElement>
+							<f:FormElement>
+								<f:fields>
+									<Label class="form-custom-label">
+										<layoutData>
+											<l:GridData span="L12 M12 S12"/>
+										</layoutData>
+									</Label>
+								</f:fields>
+							</f:FormElement>
+							<f:FormElement >
+								<f:fields>
+									<Label class="formLableSwich" text="{i18n>immediatelyunsubscribeText}"  >
+										<layoutData>
+											<l:GridData span="L12 M12 S12"/>
+										</layoutData>
+									</Label>
+									<Switch class="formLableSwich" type="AcceptReject" state="true"  >
+										<layoutData>
+											<FlexItemData growFactor="1"/>
+										</layoutData>
+									</Switch>
+								</f:fields>
+							</f:FormElement>
+						</f:formElements>
+					</f:FormContainer>
+				</f:formContainers>
+			</f:Form>
+		</items>
+	</FlexBox>
+</core:FragmentDefinition>

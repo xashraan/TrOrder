@@ -1,0 +1,26 @@
+<mvc:View controllerName="TransferOrder.controller.replenishmentOrder" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:tnt="sap.tnt" xmlns:core="sap.ui.core">
+	<App class="pageAppClass">
+		<pages>
+			<Page showHeader="false" class="statusPageClass">
+				<content>
+					<Panel class="scanVboxClass">
+						<VBox>
+							<ToolbarSpacer/>
+							<Text text="{i18n>scanText}" class="scanTextClass"></Text>
+							<ToolbarSpacer/>
+							<Text text="{i18n>infoText}" class="infoTextClass"></Text>
+							<Input id="Idinput" value="" width="50%" liveChange="inputLiveChange" class="barcodeInput"/>
+							<core:Icon src = "sap-icon://camera" class="cameraIconClass" press="fnCameraScan"></core:Icon>
+							<Text text="{i18n>cameraText}" class="cameraTextClass"></Text>
+						</VBox>
+					</Panel>
+					<Panel class="infoVboxClass">
+						<core:Icon src = "sap-icon://write-new" class="openKaypadClass"></core:Icon>
+					<Text text="{i18n>enterInfoText}" class="enterTextClass"></Text>
+					</Panel>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

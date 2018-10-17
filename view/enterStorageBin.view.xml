@@ -1,0 +1,46 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="TransferOrder.controller.enterStorageBin"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page showHeader="false" class="statusPageClass">
+				<content>
+					<Label text="Syötä kohdetiedot" class="targetHInfoClass"></Label>
+					<Label text="Varastopaikka" class="keypadLabelClass"></Label>
+					<html:div id="numericInput" class="numericInput">
+						<html:div id="numBox" class="numBox" ></html:div>
+						<html:table id="keypad" class="keypad">
+							<html:tr>
+								<html:td class="key">1</html:td>
+								<html:td class="key">2</html:td>
+								<html:td class="key keyright">3</html:td>
+							</html:tr>
+							<html:tr>
+								<html:td class="key">4</html:td>
+								<html:td class="key">5</html:td>
+								<html:td class="key keyright">6</html:td>
+							</html:tr>
+							<html:tr>
+								<html:td class="key">7</html:td>
+								<html:td class="key">8</html:td>
+								<html:td class="key keyright">9</html:td>
+							</html:tr>
+							<html:tr>
+								<html:td class="btn">C</html:td>
+								<html:td class=" key keylast">0</html:td>
+								<html:td class="btn keyright">_</html:td>
+							</html:tr>
+						</html:table>
+					</html:div>
+				</content>
+				<footer>
+					<Toolbar class="orderDetailButton">
+						<SegmentedButton selectedButton="none">
+							<Button text="Ohita" class="buttonCancelclass"></Button>
+							<Button text="Jatka" press="onPressAccept" class="buttonclass"></Button>
+						</SegmentedButton>
+					</Toolbar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

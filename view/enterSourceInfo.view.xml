@@ -1,0 +1,56 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="TransferOrder.controller.enterSourceInfo"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page showHeader="false" class="statusPageClass">
+				<content>
+						<Text text="Syötä lähdetiedot" class="targetHInfoClass"></Text>
+				<!--	<core:Fragment fragmentName="TransferOrder.fragment.Information" type="XML" />-->
+				<Panel class="targetInfoClass">
+					
+				<FlexBox
+						direction="Column"
+					alignItems="Start">
+					<items>
+					<Label text="{i18n>eventTypeText}" ></Label>
+						<Select forceSelection="false" items="{ path: 'EventModel>/', sorter: { path: 'EventModel>EventType' } }"  class="targetSelectClass">
+								<core:Item text="{EventModel>EventType}"/>
+									</Select>
+					
+					</items>
+				</FlexBox>
+				<ToolbarSpacer/>
+					<FlexBox
+						direction="Column"
+					alignItems="Start">
+					<items>
+					<Label text="{i18n>brandnameText}"  ></Label>
+						<Select forceSelection="false" items="{ path: 'storageModel>/', sorter: { path: 'storageModel>storageType' } }" class="targetSelectClass">
+										<core:Item text="{storageModel>storageType}"/>
+									</Select>
+					
+					</items>
+				</FlexBox>
+				<ToolbarSpacer/>
+					<FlexBox
+						direction="Column"
+					alignItems="Start">
+					<items>
+					<Label text="{i18n>storagePlaceText}"></Label>
+					<Select forceSelection="false" items="{ path: 'EventModel>/', sorter: { path: 'EventModel>EventType' } }" class="targetSelectClass">
+									<core:Item text="{EventModel>EventType}"/>
+									</Select>
+					
+					</items>
+				</FlexBox>
+				</Panel>
+				</content>
+					<footer>
+			<Toolbar class="toolbarClass sourceToolbar">
+				<Button text="Jatka" press="onPressContinue" class="continueBtnClass"></Button>
+			</Toolbar>
+		</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

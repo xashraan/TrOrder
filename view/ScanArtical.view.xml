@@ -1,0 +1,57 @@
+<mvc:View controllerName="TransferOrder.controller.ScanArtical"  xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:core="sap.ui.core" xmlns:tnt="sap.tnt">
+	<App  class="pageAppClass">
+		<pages>
+			<Page showHeader="false" class="statusPageClass">
+			<content>
+	<!--	<tnt:ToolHeader class ="headerClass">
+		<Button icon="sap-icon://nav-back" type="Transparent" class="buttonIconClass">
+			<layoutData>
+				<OverflowToolbarLayoutData priority="NeverOverflow" />
+			</layoutData>
+		</Button>
+		<ToolbarSpacer />
+		<Text text="{i18n>title}" wrapping="false" class="titleClass">
+			<layoutData>
+				<OverflowToolbarLayoutData priority="Disappear" />
+			</layoutData>
+		</Text>
+		<ToolbarSpacer />
+		<Button icon="sap-icon://menu2" type="Transparent" press="onUserNamePress">
+			<layoutData>
+				<OverflowToolbarLayoutData priority="NeverOverflow" />
+			</layoutData>
+		</Button>
+	   </tnt:ToolHeader>-->
+			<Panel class="scanVboxClass">
+					<VBox>
+			<!--	<Image src = "img/eyeBarcodeScann.png" press="onEventOpen" class="eyeIconClass"></Image>-->
+					<ToolbarSpacer/>
+					<Text text="{i18n>scanText}" class="scanTextClass"></Text>
+					<ToolbarSpacer/>
+						<Text text="{i18n>infoText}" class="infoTextClass"></Text>
+							<Input id="Idinput" value="" width="50%" liveChange="inputLiveChange" class="barcodeInput"/>
+						<core:Icon src="sap-icon://camera" class="cameraIconClass" press="fnCameraScan">
+		</core:Icon>
+		<Text text = "{i18n>cameraText}" class="cameraTextClass"></Text>
+		</VBox>
+					</Panel>
+				<HBox class="footerHBoxClass">
+								<VBox class="footerVBoxClass">
+				<core:Icon  src = "sap-icon://goal" press="onPresstarget" class="footerIconClass"/>
+				<Text text = "{i18n>EnterthedestinationText}" class="footerVBoxTextClass"></Text>
+			</VBox>
+			<VBox class="footerSecVBoxClass">
+				<core:Icon  src = "sap-icon://search" press="onPresssearchOrder" class="footerIconClass"/>
+				<Text text = "{i18n>SearchplatformText}" class="footerVBoxTextClass"></Text>
+				</VBox>
+		<VBox class="footerLastVBoxClass">
+				<core:Icon  src = "sap-icon://product" press="onPressMoveProduct" class="footerIconClass"/>
+				<Text text = "{i18n>Moveproduct}" class="footerVBoxTextClass"></Text>
+				</VBox>
+					</HBox>
+		</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

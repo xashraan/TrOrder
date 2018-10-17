@@ -1,0 +1,142 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="TransferOrder.controller.orderDetails"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:tnt="sap.tnt" xmlns:l="sap.ui.layout">
+	<App >
+		<pages>
+			<Page showHeader="false" class="orderDetailsPageClass">
+				<content>
+					<HBox class="orderLabelHbox">
+						<Label text="Siirtotilauksen tiedot"></Label>
+					</HBox>
+					<FlexBox width="95%" class="oderFlexClass orderClearClass" alignItems="Stretch">
+						<items>
+							<Text text="Tapahtumalaji" class="flexboxTextClass">
+								<layoutData>
+									<FlexItemData growFactor="1"/>
+								</layoutData>
+							</Text>
+							<Text class="flexboxTextClass" text="Kuitattu heti">
+								<layoutData>
+									<FlexItemData growFactor="1"/>
+								</layoutData>
+							</Text>
+						</items>
+					</FlexBox>
+					<FlexBox width="95%" class="oderFlex2Class orderLastChildClass" alignItems="Stretch">
+						<items>
+							<Text class="orderDetailData" text="{SSCCDetailModel>/MovType}">
+								<layoutData>
+									<FlexItemData growFactor="1"/>
+								</layoutData>
+							</Text>
+							<Text class="orderDetailData" text="EI">
+								<layoutData>
+									<FlexItemData growFactor="1"/>
+								</layoutData>
+							</Text>
+						</items>
+					</FlexBox>
+					<FlexBox width="95%" class="orderStockClass" alignItems="Stretch">
+						<items>
+							<Text text="Lähde" class="flexboxTextClass">
+								<layoutData>
+									<FlexItemData growFactor="1"/>
+								</layoutData>
+							</Text>
+							<Text class="flexboxTextClass" text="Kohde">
+								<layoutData>
+									<FlexItemData growFactor="1"/>
+								</layoutData>
+							</Text>
+						</items>
+					</FlexBox>
+					<FlexBox width="95%" class="oderFlex2Class orderSourceClass" alignItems="Stretch">
+						<items>
+							<VBox>
+								<Text class="orderDetailData" text="{orderListItem>/Lgnum}">
+									<layoutData>
+										<FlexItemData growFactor="1"/>
+									</layoutData>
+								</Text>
+								<Text class="orderDetailData" text="{orderListItem>/Letyp}">
+									<layoutData>
+										<FlexItemData growFactor="1"/>
+									</layoutData>
+								</Text>
+								<Text class="orderDetailData" text="{orderListItem>/SrcStoragebin}">
+									<layoutData>
+										<FlexItemData growFactor="1"/>
+									</layoutData>
+								</Text>
+							</VBox>
+							<VBox class="destDetailClass">
+								<Text class="orderDetailData" text="{orderListItem>/DLgnum}">
+									<layoutData>
+										<FlexItemData growFactor="1"/>
+									</layoutData>
+								</Text>
+								<Text class="orderDetailData" text="{SSCCDetailModel>/StorageType}">
+									<layoutData>
+										<FlexItemData growFactor="1"/>
+									</layoutData>
+								</Text>
+								<Text class="orderDetailData" text="{SSCCDetailModel>/StorageBin}">
+									<layoutData>
+										<FlexItemData growFactor="1"/>
+									</layoutData>
+								</Text>
+							</VBox>
+						</items>
+					</FlexBox>
+					<FlexBox width="95%" class="oderFlexClass orderSsccClass" alignItems="Stretch">
+						<items>
+							<Text text="VY-tyyppi" class="flexboxTextClass">
+								<layoutData>
+									<FlexItemData growFactor="1"/>
+								</layoutData>
+							</Text>
+							<Text text="Lavan koko" class="flexboxTextClass">
+								<layoutData>
+									<FlexItemData growFactor="1"/>
+								</layoutData>
+							</Text>
+						</items>
+					</FlexBox>
+					<FlexBox width="95%" class="oderFlex2Class flex2ChildClass">
+						<items >
+							<Text class="orderDetailData" text="{orderListItem>/Letyt}">
+								<layoutData>
+									<FlexItemData growFactor="1"/>
+								</layoutData>
+							</Text>
+							<Text class="orderDetailData" text="80 ME(5x 200g)">
+								<layoutData>
+									<FlexItemData growFactor="1"/>
+								</layoutData>
+							</Text>
+						</items>
+					</FlexBox>
+					<FlexBox class="orderStockClass stockChildClass" direction="Column" alignItems="Start">
+						<items>
+							<Text text="Tuotenimi" class="flexboxTextClass"/>
+							<Text class="orderDetailData" text="{orderListItem>/Maktx}"/>
+						</items>
+					</FlexBox>
+					<FlexBox class="orderStockClass stockChildClass" direction="Column" alignItems="Start">
+						<items>
+							<Text class="flexboxTextClass ssccTextFirst" text="SSCC"/>
+							<Text class="orderDetailData" text="{orderListItem>/Lenum}"/>
+						</items>
+					</FlexBox>
+				</content>
+				<footer>
+					<Toolbar class="orderDetailButton">
+						<SegmentedButton selectedButton="none">
+							<Button text="Keskeytä" class="buttonCancelclass"></Button>
+							<Button text="Hyväksy" press="onAccept" class="buttonclass"></Button>
+						</SegmentedButton>
+					</Toolbar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

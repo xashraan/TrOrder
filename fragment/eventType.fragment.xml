@@ -1,0 +1,18 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+		<Dialog title="{i18n>eventTypeDialogTitle}" class="eventTypeDialogClass" >
+		<!--	<Button type="Transparent" icon="sap-icon://decline"></Button>-->
+	<Image src="img/download.png" height="15px" width="16px" class="closeImageClass" press="onclose"></Image>
+	<!--<Select forceSelection="false" 
+				items="{/}" id="eventTypeId" width = "100%" change="onSelectEvent">
+		<core:Item key="{eventType}" text="{eventType}" />
+	</Select>-->
+		<SelectList
+					items="{eventType>/}"  class="selectListClass">
+					<core:Item key="{eventType>eventType}" text="{eventType>eventType}"  />
+				</SelectList>
+	<buttons>
+	 <Button type="Transparent" text="OK" press="onSelectEvent" class="selectButtonClass"/></buttons>
+	</Dialog>
+</core:FragmentDefinition>

@@ -1,0 +1,49 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="TransferOrder.controller.amountMoveProduct"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="Title" showHeader="false" class= "orderDetailsPageClass">
+				<content>
+					<Label text="Syötä siirrettävä määrä" class="amountLabelClass"></Label>
+					<Label text="Pirkka kuivattu viikuna luomu 200g" class="brandNameLabelClass"></Label>
+		<html:div id="numericInput" class ="numericInput">
+		<HBox class="enterAmountHBox">
+			  <html:div id="numBox" class = "numBox amountinputclass"></html:div>
+			  <Text text="ME" class="unitTextClass" id="unitTextId"></Text>
+			 	<core:Icon src="sap-icon://navigation-down-arrow" press="onClickUnit" class="unitChangeClass"></core:Icon>
+		</HBox>
+
+  <html:table id="keypad" class="keypad brandKeypad">
+    <html:tr>
+      <html:td class="key brandKey">1</html:td>
+      <html:td class="key brandKey">2</html:td>
+      <html:td class="key keyright brandKey">3</html:td>
+    </html:tr>
+    <html:tr>
+      <html:td class="key brandKey">4</html:td>
+      <html:td class="key brandKey">5</html:td>
+      <html:td class="key keyright brandKey">6</html:td>
+    </html:tr>
+    <html:tr>
+      <html:td class="key brandKey">7</html:td>
+      <html:td class="key brandKey">8</html:td>
+      <html:td class="key keyright brandKey">9</html:td>
+    </html:tr>
+    <html:tr>
+      <html:td class="btn brandbtn">C</html:td>
+      <html:td class=" key keylast brandKey">0</html:td>
+      <html:td class="btn keyright brandbtn">-</html:td>
+    </html:tr>
+  </html:table>
+</html:div>	
+					
+				</content>
+					<footer>
+			<Toolbar class="toolbarClass amountToolbar">
+				<Button text="Jatka" press="onPressContinue" class="continueBtnClass"></Button>
+			</Toolbar>
+		</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

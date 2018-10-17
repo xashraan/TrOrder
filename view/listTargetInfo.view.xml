@@ -1,0 +1,50 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="TransferOrder.controller.listTargetInfo"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:tnt="sap.tnt">
+	<App>
+		<pages>
+			<Page showHeader="false" class="statusPageClass">
+				<content>
+			<Text text="{i18n>TargetInformationText}" class="targetHInfoClass"></Text>
+				<Panel class="targetInfoClass">
+						<FlexBox direction="Column" alignItems="Start">
+							<items>
+								<Label text="{i18n>eventTypeText}"></Label>
+								<Select forceSelection="false" items="{ path: 'EventModel>/', sorter: { path: 'EventModel>EventType' } }" class="targetSelectClass">
+									<core:Item text="{EventModel>EventType}"/>
+								</Select>
+							</items>
+						</FlexBox>
+						<ToolbarSpacer/>
+						<FlexBox direction="Column" alignItems="Start">
+							<items>
+								<Label text="Varastotyyppi"></Label>
+								<Select forceSelection="false" items="{ path: 'storageModel>/', sorter: { path: 'storageModel>storageType' } }" class="targetSelectClass">
+									<core:Item text="{storageModel>storageType}"/>
+								</Select>
+							</items>
+						</FlexBox>
+								<ToolbarSpacer/>
+							<FlexBox direction="Column" alignItems="Start" id="storageFlexId" >
+							<items>
+								<Label text="Varastopaikka"></Label>
+							<html:div  id="idStorageBin" class="StorageBinBox" ></html:div>
+							</items>
+						</FlexBox>
+						<VBox>
+							<Text text="{i18n>immediatelyunsubscribeText}" class="targetSwitchLabel"></Text>
+							<Switch state="true" customTextOn="KYLLÄ" customTextOff="EI" class="targetSwitchClass"></Switch>
+						</VBox>
+					</Panel>
+				</content>
+				<footer>/
+					<Toolbar class="orderDetailButton">
+						<SegmentedButton selectedButton="none">
+							<Button text="Lisää lava" class="buttonCancelclass"></Button>
+							<Button text="Jatka" press="onPressAccept" class="buttonclass"></Button>
+						</SegmentedButton>
+					</Toolbar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
